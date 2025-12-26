@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiera Prisma</title>
+    <link rel="icon" href="images/logo_original.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar">
+
+    <div class="logo-container">
+        <img src="images/logo_original.png" alt="Logo de la financiera" class="logo">
+
+        <div class="logo-text">
+            <h2>AHORRO Y CRÉDITO PRISMA</h2>
+            <span>confiamos en ti!</span>
+        </div>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Sobre Nosotros</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#ahorro">Ahorro</a></li>
+      <li><a href="#asesores">Asesores</a></li>
+      <div class="btn-login">
+        <a href="#contacto">Contáctanos</a>
+      </div>
+    </ul>
+    
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <h1>Construyendo tu futuro financiero</h1>
+        <p>Soluciones de ahorro y crédito diseñadas para tu crecimiento, seguridad y bienestar.</p>
+
+        <a href="#contacto" class="btn-primario">Comienza Hoy</a>
+    </div>
+
+    <div class="hero-slider">
+        <div class="slides">
+            <video src="images/flyer_video1.mp4" class="slide active" muted autoplay loop data-orientacion="vertical"></video>
+            <video src="images/flyer_video2.mp4" class="slide" muted loop></video> <!-- ESTE ES HORIZONTAL -->
+            <video src="images/flyer_video3.mp4" class="slide" muted loop data-orientacion="vertical"></video>
+            <video src="images/flyer_video4.mp4" class="slide" muted loop data-orientacion="vertical"></video>
+
+        </div>
+
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+</section>
+
+
+<section class="nosotros" id="nosotros">
+    <div class="nosotros-header">
+        <h2>Sobre Nosotros</h2>
+        <p>
+            En <strong>FINANCIERA PRISMA</strong> trabajamos todos los días para construir 
+            confianza y brindar oportunidades reales de crecimiento a cada uno de nuestros clientes.
+        </p>
+    </div>
+
+    <div class="nosotros-grid">
+
+        <div class="nosotros-card">
+            <div class="icono">🤝</div>
+            <h3>Confianza</h3>
+            <p>
+                Creemos en la transparencia y el respeto. Cada cliente es parte importante de nuestra familia financiera.
+            </p>
+        </div>
+
+        <div class="nosotros-card">
+            <div class="icono">💡</div>
+            <h3>Claridad</h3>
+            <p>
+                Explicamos nuestras politicas sin complicaciones, con información directa y fácil de entender.
+            </p>
+        </div>
+
+        <div class="nosotros-card">
+            <div class="icono">🚀</div>
+            <h3>Crecimiento</h3>
+            <p>
+                Ofrecemos soluciones que ayudan a familias y emprendedores a avanzar con seguridad financiera.
+            </p>
+        </div>
+
+        <div class="nosotros-card">
+            <div class="icono">🌱</div>
+            <h3>Compromiso</h3>
+            <p>
+                Construimos relaciones duraderas basadas en la honestidad, el apoyo y el servicio.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="mision-vision">
+    <div class="mv-container">
+
+        <div class="mv-box">
+            <h2 class="mv-title">⭐ Misión</h2>
+            <p>
+                Brindar soluciones financieras seguras, accesibles y transparentes
+                que impulsen el crecimiento económico de las familias y emprendedores
+                de Huánuco. Trabajamos con compromiso, honestidad y cercanía,
+                ofreciendo productos de ahorro e inversión que ayuden a nuestros
+                clientes a construir un futuro estable y próspero.
+            </p>
+        </div>
+
+        <div class="mv-box">
+            <h2 class="mv-title">⭐ Visión</h2>
+            <p>
+                Ser la financiera líder y más confiable de Huánuco, reconocida por
+                nuestra innovación, excelencia en el servicio y por contribuir al
+                desarrollo económico de nuestra región. Aspiramos a convertirnos
+                en la primera opción para cada persona que busca mejorar su
+                bienestar financiero.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="eventos" id="eventos">
+
+    <div class="eventos-header">
+        <h2>Eventos Especiales • Navidad 2025</h2>
+        <p>
+            En <strong>Ahorro y Crédito PRISMA</strong> queremos celebrar estas fiestas navideñas 
+            premiando la confianza de nuestros clientes con sorpresas, regalos y grandes sorteos.
+        </p>
+    </div>
+
+    <div class="eventos-grid">
+
+        <div class="evento-card">
+            <div class="evento-img">
+                <img src="images/motorojo.jpg" alt="Sorteo de motos">
+            </div>
+            <h3>🎁 Gran Sorteo Navideño</h3>
+            <p>
+                Participa y gana <strong>2 motos lineales nuevas</strong> este 24 de diciembre.  
+                Solo por ahorrar o realizar tus pagos puntuales ¡ya estás participando!
+            </p>
+            <span class="etiqueta premio">Premio principal</span>
+        </div>
+
+        <div class="evento-card">
+            <div class="evento-img">
+                <img src="images/canasta.png" alt="Canastas navideñas">
+            </div>
+            <h3>🧺 Entrega de Canastas Navideñas</h3>
+            <p>
+                Agradecemos tu preferencia regalando <strong>canastas especiales</strong> 
+                llenas de productos para compartir una Navidad inolvidable en familia.
+            </p>
+            <span class="etiqueta especial">Clientes activos</span>
+        </div>
+
+        <div class="evento-card">
+            <div class="evento-img">
+                <img src="images/sorpresa.png" alt="Navidad sorpresas">
+            </div>
+            <h3>🎄 Más Sorpresas Navideñas</h3>
+            <p>
+                Tendremos premios instantáneos, descuentos exclusivos, activaciones 
+                y regalos sorpresa durante todo el mes de diciembre.
+            </p>
+            <span class="etiqueta sorpresa">Todo diciembre</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="ahorro" id="ahorro">
+    <h2 class="titulo-ahorro">Oportunidades de Ahorro</h2>
+    <p class="sub-ahorro">
+        Tus ahorros crecen con nosotros. Elige el tiempo que más te convenga y mira cómo tu dinero trabaja por ti.
+    </p>
+
+    <div class="ahorro-grid">
+
+        <div class="card-ahorro small">
+            <h3>Para Ahorros menos de S/ 20</h3>
+            <p class="desc">Ideal para quienes recién empiezan a construir su futuro financiero.</p>
+
+            <div class="porcentajes">
+                <div>
+                    <span class="num">5%</span>
+                    <p>Interés en 6 meses</p>
+                </div>
+                <div>
+                    <span class="num">10%</span>
+                    <p>Interés en 1 año</p>
+                </div>
+            </div>
+
+            <p class="motivacion">Cada sol cuenta. ¡Empieza hoy y ve crecer tus metas!</p>
+        </div>
+
+        <div class="card-ahorro big">
+            <h3>Para Ahorros Desde S/ 20 a Más</h3>
+            <p class="desc">Perfecto para quienes buscan un crecimiento más acelerado.</p>
+
+            <div class="porcentajes">
+                <div>
+                    <span class="num">6%</span>
+                    <p>Interés en 6 meses</p>
+                </div>
+                <div>
+                    <span class="num">12%</span>
+                    <p>Interés en 1 año</p>
+                </div>
+            </div>
+
+            <p class="motivacion">Tu esfuerzo merece más. ¡Haz que tu dinero trabaje para ti!</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="asesores" id="asesores">
+    <h2 class="titulo-asesores">Nuestros Asesores</h2>
+    <p class="sub-asesores">Profesionales listos para ayudarte a alcanzar tus metas financieras.</p>
+
+    <div class="slider-container">
+
+        <div class="slider" id="slider">
+
+            <div class="card-asesor">
+                <img src="images/asesor1.jpg" alt="">
+                <h3>Piero Santos</h3>
+                <p>Especialista en créditos personales y asesoría financiera.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor2.jpg" alt="">
+                <h3>Bryan Orbezo</h3>
+                <p>Experto en ahorro programado y metas financieras.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor3.jpg" alt="">
+                <h3>Jonas Salazar</h3>
+                <p>Atención al cliente y orientación personalizada.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor4.jpg" alt="">
+                <h3>Vladimir Orbezo</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor5.jpg" alt="">
+                <h3>Yonel Diego</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor6.jpg" alt="">
+                <h3>Beker Cubillas</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+             <div class="card-asesor">
+                <img src="images/asesor1.jpg" alt="">
+                <h3>Piero Santos</h3>
+                <p>Especialista en créditos personales y asesoría financiera.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor2.jpg" alt="">
+                <h3>Bryan Orbezo</h3>
+                <p>Experto en ahorro programado y metas financieras.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor3.jpg" alt="">
+                <h3>Jonas Salazar</h3>
+                <p>Atención al cliente y orientación personalizada.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor4.jpg" alt="">
+                <h3>Vladimir Orbezo</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor5.jpg" alt="">
+                <h3>Yonel Diego</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+            <div class="card-asesor">
+                <img src="images/asesor6.jpg" alt="">
+                <h3>Beker Cubillas</h3>
+                <p>Gestión de inversiones y crecimiento financiero.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="contacto-info-section" id="contacto">
+    <div class="contacto-info-container">
+
+        <h2 class="titulo-contacto">CONTÁCTANOS </h2>
+        <p class="descripcion-contacto">
+            Estamos disponibles para resolver tus dudas, ayudarte a ahorrar y brindarte la mejor atención financiera.
+        </p>
+
+        <div class="contacto-cards">
+
+            <div class="contact-card">
+                <h3>📞 Números de Atención</h3>
+                <p><strong>Atención al Cliente:</strong> +51 949 162 641</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📍 Oficina Principal</h3>
+                <p>Jr. Eucaliptos #155 (Los Portales), Huánuco – Perú</p>
+                <p>Lunes a Viernes: 8:00 AM – 6:00 PM</p>
+                <p>Sábados: 8:00 AM – 12:00 PM</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>💬 Medios Digitales</h3>
+                <p><strong>Correo:</strong> contacto@prisma.com</p>
+                <p><strong>Facebook:</strong> Financiera Prisma</p>
+                <p><strong>Instagram:</strong> @FinancieraPrisma</p>
+                <p><strong>WhatsApp:</strong> +51 949 162 641</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Financiera Prisma</h3>
+            <p>Comprometidos con tu crecimiento financiero. Ahorra, invierte y progresa con seguridad.</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ahorro">Ahorros</a></li>
+                <li><a href="#asesores">Asesores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contacto</h4>
+            <p>📍 Jr. Eucaliptos #155 (Los Portales), Huánuco – Perú</p>
+            <p>📞 +51 949 162 641</p>
+            <p>✉️ contacto@financieraprisma.com</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Síguenos</h4>
+            <div class="footer-social">
+                <a href="images/Facebook.png"><i class="fa-brands fa-facebook"></i>Facebook</a><br>
+                <a href="images/Instagram.png"><i class="fa-brands fa-Instagram"></i>Instagram</a><br>
+                <a href="https://www.tiktok.com/@credito.ahorro.pr?_r=1&_t=ZS-928YcPWRour"><i class="fa-brands fa-tiktok"></i>Tiktok</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Financiera Prisma | RUC: 20675812982 | Huánuco, Perú | Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
